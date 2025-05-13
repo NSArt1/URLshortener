@@ -1,0 +1,19 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "URL Shortener Metrics",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "HTTP Requests Total",
+        "targets": [
+          {
+            "expr": "url_shortener_requests_total",
+            "legendFormat": "{{path}} {{status}}"
+          }
+        ],
+        "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 }
+      }
+    ]
+  }
+}
